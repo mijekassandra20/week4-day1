@@ -47,7 +47,7 @@
 // TODO: 3. In 2-3 sentences, please explain what cross site scripting is and a solution. 
     // Cross site scripting occurs when attackers send script-injecting link to victims through emails. When a victim gets fooled and clicked on the link,
     // it will execute a malicious script that exposes the victim's private data, (e.g bank acc details), then it send the private data to the attacker.
-    // In order to prevent this, a npm package called, 'xss-clean' can be installed, this will sanitize user inputs from POST, GET queries and params.
+    // In order to prevent this, a npm package called, 'xss-clean' can be installed, this will sanitize user inputs from POST, GET queries and  GET params.
 
 // TODO: 4. In 2-3 sentences, please explain what rate limiting is and a solution. 
     // Rate limiting is when a user is sending too many api request to try out combinations of username/email and passwords in order to successfully logged in.
